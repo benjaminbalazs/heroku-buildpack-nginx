@@ -125,7 +125,6 @@ mkdir "$build_dir/bin"
 cat <<EOF >"$build_dir/bin/start_nginx"
 #!/usr/bin/env bash
 erb conf/nginx.conf.erb > conf/nginx.conf
-erb conf/staging.soluqi.com.conf.erb > conf/staging.soluqi.com.conf
 erb conf/soluqi.com.conf.erb > conf/soluqi.com.conf
 erb conf/subdomain.conf.erb > conf/subdomain.conf
 erb conf/domain.conf.erb > conf/domain.conf
