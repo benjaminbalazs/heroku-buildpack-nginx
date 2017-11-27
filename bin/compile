@@ -127,7 +127,7 @@ cat <<EOF >"$build_dir/bin/start_nginx"
 erb conf/nginx.conf.erb > conf/nginx.conf
 erb conf/soluki.com.conf.erb > conf/soluki.com.conf
 erb conf/subdomain.soluki.com.conf.erb > conf/subdomain.soluki.com.conf
-erb conf/domain.conf.erb > conf/domain.com.conf
+erb conf/domain.conf.erb > conf/domain.conf
 erb conf/app.soluki.com.conf.erb > conf/app.soluki.com.conf
 erb conf/editor.soluki.com.conf.erb > conf/editor.soluki.com.conf
 mkdir -p logs
