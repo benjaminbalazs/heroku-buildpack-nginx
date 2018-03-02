@@ -130,6 +130,7 @@ erb conf/subdomain.soluki.com.conf.erb > conf/subdomain.soluki.com.conf
 erb conf/domain.conf.erb > conf/domain.conf
 erb conf/app.soluki.com.conf.erb > conf/app.soluki.com.conf
 erb conf/editor.soluki.com.conf.erb > conf/editor.soluki.com.conf
+erb conf/links.soluki.com.conf.erb > conf/links.soluki.com.conf
 mkdir -p logs
 touch logs/access.log logs/error.log
 (tail -qF -n 0 --pid=\$\$ logs/*.log &)
