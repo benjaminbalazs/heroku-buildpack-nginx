@@ -130,8 +130,8 @@ erb conf/admin.soluki.com.conf.erb > conf/admin.soluki.com.conf
 erb conf/domain.conf.erb > conf/domain.conf
 erb conf/app.soluki.com.conf.erb > conf/app.soluki.com.conf
 erb conf/admin.app.soluki.com.conf.erb > conf/admin.app.soluki.com.conf
-erb conf/editor.soluki.com.conf.erb > conf/editor.soluki.com.conf
-erb conf/admin.editor.soluki.com.conf.erb > conf/admin.editor.soluki.com.conf
+erb conf/edit.soluki.com.conf.erb > conf/edit.soluki.com.conf
+erb conf/admin.edit.soluki.com.conf.erb > conf/admin.edit.soluki.com.conf
 erb conf/links.soluki.com.conf.erb > conf/links.soluki.com.conf
 erb conf/customerio.soluki.com.conf.erb > conf/customerio.soluki.com.conf
 erb conf/subdomain.soluki.com.conf.erb > conf/subdomain.soluki.com.conf
