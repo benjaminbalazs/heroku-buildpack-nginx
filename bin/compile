@@ -126,6 +126,7 @@ cat <<EOF >"$build_dir/bin/start_nginx"
 #!/usr/bin/env bash
 erb conf/nginx.conf.erb > conf/nginx.conf
 erb conf/soluki.com.conf.erb > conf/soluki.com.conf
+erb conf/dashboard.soluki.com.conf.erb > conf/dashboard.soluki.com.conf
 erb conf/admin.soluki.com.conf.erb > conf/admin.soluki.com.conf
 erb conf/domain.conf.erb > conf/domain.conf
 erb conf/admin.app.soluki.com.conf.erb > conf/admin.app.soluki.com.conf
